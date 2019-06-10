@@ -19,7 +19,8 @@ ngh --dir=dist/[project-name]
 Particularmente, se debe ejecutar los siguientes comandos
 
 ```
-ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
+$ ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
+$ sudo ngh --dir=dist/angular6-sidenav-example/ --no-silent
 ```
 
 
@@ -29,3 +30,4 @@ ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 Proyecto clonado desde: https://github.com/only2dhir/angular6-sidenav-example.git
+
