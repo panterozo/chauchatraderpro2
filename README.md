@@ -15,15 +15,15 @@ ng build --prod --base-href https://[username].github.io/[repo]/
 ngh --dir=dist/[project-name]
 ```
 
+## Ejecución
 
 Particularmente, se debe ejecutar los siguientes comandos
 
 ```
 $ ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
-$ sudo ngh --dir=dist/angular6-sidenav-example/ --no-silent
 ```
 
-# Publicar en dominio
+## Publicar en dominio
 
 Para publicar en el dominio chauchatraderpro.cl, ejecutar 
 
@@ -31,6 +31,23 @@ Para publicar en el dominio chauchatraderpro.cl, ejecutar
 $ ng build --prod --base-href https://chauchatraderpro.cl
 ```
 
+## Linux 
+
+```
+$ sudo ngh --dir=dist/angular6-sidenav-example/ --no-silent
+```
+
+## Windows
+
+```
+$ ngh --dir=dist/angular6-sidenav-example/
+```
+
+
+
+# Configurar dominio
+
+Por ahora, se requiere entrar al proyecto y asociar el dominio a github pages en el siguiente [link](https://github.com/panterozo/chauchatraderpro2/settings)
 
 
 # Angular6SidenavExample
