@@ -1,0 +1,99 @@
+{
+    "appVersion" : "4.0.1",
+    "jsonVersion" : "0.0.4",
+    "exchange" : {
+        "orionx" : {
+            "markets" : [ 
+                {
+                    "basecurrency" : "BTC",
+                    "pares" : [ 
+                        "CHA", 
+                        "ETH", 
+                        "XRP", 
+                        "LTC", 
+                        "BCH", 
+                        "DASH"
+                    ]
+                }, 
+                {
+                    "basecurrency" : "CLP",
+                    "pares" : [ 
+                        "BTC", 
+                        "CHA", 
+                        "LUK", 
+                        "ETH", 
+                        "XRP", 
+                        "LTC", 
+                        "BCH", 
+                        "DASH"
+                    ]
+                }
+            ],
+            "coins" : [ 
+                {
+                    "CHA" : {
+                        "id_spinner" : 0,
+                        "name" : "Chaucha",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "LUK" : {
+                        "id_spinner" : 1,
+                        "name" : "Luka",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "BTC" : {
+                        "id_spinner" : 2,
+                        "name" : "Bitcoin",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "ETH" : {
+                        "id_spinner" : 3,
+                        "name" : "Ethereum",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "XRP" : {
+                        "id_spinner" : 4,
+                        "name" : "Ripple",
+                        "decimal" : 6
+                    }
+                }, 
+                {
+                    "LTC" : {
+                        "id_spinner" : 5,
+                        "name" : "Litecoin",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "BCH" : {
+                        "id_spinner" : 6,
+                        "name" : "Bitcoin Cash",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "DASH" : {
+                        "id_spinner" : 7,
+                        "name" : "Dash",
+                        "decimal" : 8
+                    }
+                }, 
+                {
+                    "XLM" : {
+                        "id_spinner" : 7,
+                        "name" : "Stellar",
+                        "decimal" : 7
+                    }
+                }
+            ]
+        }
+    }
+}
