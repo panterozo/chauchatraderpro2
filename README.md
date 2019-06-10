@@ -23,6 +23,14 @@ $ ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
 $ sudo ngh --dir=dist/angular6-sidenav-example/ --no-silent
 ```
 
+# Publicar en dominio
+
+Para publicar en el dominio chauchatraderpro.cl, ejecutar 
+
+```
+$ ng build --prod --base-href https://chauchatraderpro.cl
+```
+
 
 
 # Angular6SidenavExample
