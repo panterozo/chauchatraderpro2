@@ -38,12 +38,13 @@ ul li{
 }
 
 #wrapper {
-  max-width: 1050px;
+  max-width: 600px;
   margin: 60px auto 60px auto;
   background-color: #DDD;
   
 }
-#outer {
+
+/*#outer {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -60,4 +61,4 @@ img {
   max-width: 100%;
   height: auto;
 
-}
+}*/

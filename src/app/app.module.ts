@@ -16,6 +16,9 @@ import { CoinmarketcapComponent } from './coinmarketcap/coinmarketcap.component'
 import { Coin360Component } from './coin360/coin360.component';
 import { ChauchaprojectComponent } from './chauchaproject/chauchaproject.component';
 
+
+import { NgxGalleryModule } from 'ngx-gallery';
+
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, data: { title: 'Home Component' } },
   { path: 'home', component: HomeComponent, data: { title: 'Home Component' } },
@@ -41,6 +44,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
+    NgxGalleryModule,
     RouterModule.forRoot(
       appRoutes,
       { useHash: true } // <-- debugging purposes only

@@ -1,31 +1,31 @@
+
+
+# Chaucha Trader Pro
+
+Este sitio web está pensado para resolver al dominio chauchatraderpro.cl, y ser alojado dentro de GithubPages.
+
+La ejecución del proceso de publicación en Github Pages es como sigue:
+
+
+```
+git checkout -b gh-pages
+git push origin gh-pages
+npm install -g angular-cli-ghpages
+ng build --prod --base-href https://[username].github.io/[repo]/
+ngh --dir=dist/[project-name]
+```
+
+
+Particularmente, se debe ejecutar los siguientes comandos
+
+```
+ng build --prod --base-href https://panterozo.github.io/chauchatraderpro2/
+```
+
+
+
 # Angular6SidenavExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Other Similar Tutorials
-
-[Angular Data Table Example](https://www.devglan.com/angular/angular-data-table-example).
-
-[Angular JWT Authentication](https://www.devglan.com/spring-security/angular-jwt-authentication)
-
-[Spring Boot Angular Example](https://www.devglan.com/spring-boot/spring-boot-angular-example)
+Proyecto clonado desde: https://github.com/only2dhir/angular6-sidenav-example.git

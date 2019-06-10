@@ -20,8 +20,8 @@
 
     
     
-	<div id="wrapper">
-	  <div id="outer">
+	<div id="wrapper" style="text-align: center">
+	  <!--div id="outer">
 	    <div class="itemwrapper">
 	      <img class="half-page-image" src="./assets/Configuraciones01.jpg" alt="Configuraciones01">
 	    </div>
@@ -31,15 +31,18 @@
 	    <div class="itemwrapper">      
 	      <img class="half-page-image" src="./assets/Configuraciones03.jpg" alt="Configuraciones03">
 	    </div>
-	  </div>
+	  </div-->
+	  <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
 	</div>
+	
+
 
 	    
 	  </mat-card-content>
-	  <mat-card-actions>
+	  <!--mat-card-actions>
 	    <button mat-button>LIKE</button>
 	    <button mat-button>SHARE</button>
-	  </mat-card-actions>
+	  </mat-card-actions-->
 	</mat-card>
 
 </div>
