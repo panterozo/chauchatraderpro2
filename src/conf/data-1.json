@@ -11,6 +11,7 @@
                         "ETH",
                         "XRP",
                         "LTC",
+                      "EOS",
                         "BCH",
                         "XLM",
 						"TRX",
@@ -25,6 +26,7 @@
                         "CHA",
 						"LTC",
                         "ETH",
+                      "EOS",
                         "BCH",
                         "LUK",						
                         "XRP",                        
@@ -98,6 +100,13 @@
                         "wallet" : "GBGX2VRRGLCLMPPS6DZC7FYCPKEHGWLDTYBXUSZH5NSM4MIOUY4XGOCC#248",
                         "name" : "Stellar",
                         "decimal" : 7
+                    }
+                },
+                {
+                    "BNB" : {
+                        "wallet" : "bnb189xhaqqq5gvlg9dgnes9l5ju4vuy5hrsh9njpv#2109",
+                        "name" : "Binance",
+                        "decimal" : 8
                     }
                 }
             ]
