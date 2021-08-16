@@ -1,115 +1,144 @@
 {
-    "appVersion" : "4.1.1",
-    "jsonVersion" : "0.0.5",
-    "exchange" : {
-        "orionx" : {
-            "markets" : [
-                {
-                    "basecurrency" : "BTC",
-                    "pares" : [
-                        "CHA",
-                        "ETH",
-                        "XRP",
-                        "LTC",
-                      "EOS",
-                        "BCH",
-                        "XLM",
-						"TRX",
-						"BNB",
-                        "DASH"
-                    ]
-                },
-                {
-                    "basecurrency" : "CLP",
-                    "pares" : [
-                        "BTC",
-                        "CHA",
-						"LTC",
-                        "ETH",
-                      "EOS",
-                        "BCH",
-                        "LUK",						
-                        "XRP",                        
-                        "XLM",
-						"TRX",
-						"BNB",
-						"DAI",
-                        "DASH"
-                    ]
-                }
-            ],
-            "coins" : [
-                {
-                    "CHA" : {
-                        "wallet" : "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
-                        "name" : "Chaucha",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "LUK" : {
-                        "wallet" : "LK3Rwd2ffUxAUHj6bW8zkECLmn1SXawJ4C3oNzJJtcBh5AWJ5BfVwBs3NrzUxway5tNkcFBF333tR47eQLJXNQ3ECm6XbJV#920ee32f90c717ada4b261c08004b76294cfd83ed864078de7a30ffa9b94d262",
-                        "name" : "Luka",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "BTC" : {
-                        "wallet" : "1CWpA2XnFnfTnbAJN94MpQWyunJgoKYz8K",
-                        "name" : "Bitcoin",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "ETH" : {
-                        "wallet" : "0x9f2688B1a76CC24dA8610E90767c319fb2EA2Af0",
-                        "name" : "Ethereum",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "XRP" : {
-                        "wallet" : "rhQrkgoV4uza557mW6HbBWMtTDkB7u5yrs#981",
-                        "name" : "Ripple",
-                        "decimal" : 6
-                    }
-                },
-                {
-                    "LTC" : {
-                        "wallet" : "LVBocBQpqD7FrXiUNrAtrkQtw1JdG6CBQt",
-                        "name" : "Litecoin",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "BCH" : {
-                        "wallet" : "14X2cEXpT6BLhFtFhYizCdUgoKtAXede4Z",
-                        "name" : "Bitcoin Cash",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "DASH" : {
-                        "wallet" : "XytqZKeKyMgG1k5meGocmtGGgPnqH7kRiM",
-                        "name" : "Dash",
-                        "decimal" : 8
-                    }
-                },
-                {
-                    "XLM" : {
-                        "wallet" : "GBGX2VRRGLCLMPPS6DZC7FYCPKEHGWLDTYBXUSZH5NSM4MIOUY4XGOCC#248",
-                        "name" : "Stellar",
-                        "decimal" : 7
-                    }
-                },
-                {
-                    "BNB" : {
-                        "wallet" : "bnb189xhaqqq5gvlg9dgnes9l5ju4vuy5hrsh9njpv#2109",
-                        "name" : "Binance",
-                        "decimal" : 8
-                    }
-                }
-            ]
+  "appVersion": "4.1.8",
+  "jsonVersion": "1.0.0",
+  "exchange": {
+    "orionx": {
+      "markets": [
+        {
+          "basecurrency": "BTC",
+          "pares": [
+            "CHA",
+            "ETH",
+            "XRP",
+            "LTC",
+            "EOS",
+            "BCH",
+            "XLM",
+            "TRX",
+            "BNB",
+            "DASH"
+          ]
+        },
+        {
+          "basecurrency": "CLP",
+          "pares": [
+            "BTC",
+            "CHA",
+            "LTC",
+            "ETH",
+            "EOS",
+            "BCH",
+            "XRP",
+            "XLM",
+            "TRX",
+            "BNB",
+            "DAI",
+            "DASH",
+            "USDT"
+          ]
         }
+      ],
+      "coins": [
+        {
+          "CHA": {
+            "wallet": "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
+            "name": "Chaucha",
+            "decimal": 8
+          }
+        },
+        {
+          "TRX": {
+            "wallet": "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
+            "name": "Tron",
+            "decimal": 6
+          }
+        },
+        {
+          "DAI": {
+            "wallet": "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
+            "name": "Dai",
+            "decimal": 7
+          }
+        },
+        {
+          "BNB": {
+            "wallet": "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
+            "name": "Binance",
+            "decimal": 7
+          }
+        },
+        {
+          "BTC": {
+            "wallet": "1CWpA2XnFnfTnbAJN94MpQWyunJgoKYz8K",
+            "name": "Bitcoin",
+            "decimal": 8
+          }
+        },
+        {
+          "ETH": {
+            "wallet": "0x9f2688B1a76CC24dA8610E90767c319fb2EA2Af0",
+            "name": "Ethereum",
+            "decimal": 8
+          }
+        },
+        {
+          "XRP": {
+            "wallet": "rhQrkgoV4uza557mW6HbBWMtTDkB7u5yrs#981",
+            "name": "Ripple",
+            "decimal": 6
+          }
+        },
+        {
+          "LTC": {
+            "wallet": "LVBocBQpqD7FrXiUNrAtrkQtw1JdG6CBQt",
+            "name": "Litecoin",
+            "decimal": 8
+          }
+        },
+        {
+          "BCH": {
+            "wallet": "14X2cEXpT6BLhFtFhYizCdUgoKtAXede4Z",
+            "name": "Bitcoin Cash",
+            "decimal": 8
+          }
+        },
+        {
+          "DASH": {
+            "wallet": "XytqZKeKyMgG1k5meGocmtGGgPnqH7kRiM",
+            "name": "Dash",
+            "decimal": 8
+          }
+        },
+        {
+          "XLM": {
+            "wallet": "GBGX2VRRGLCLMPPS6DZC7FYCPKEHGWLDTYBXUSZH5NSM4MIOUY4XGOCC#248",
+            "name": "Stellar",
+            "decimal": 7
+          }
+        },
+        {
+          "BNB": {
+            "wallet": "bnb189xhaqqq5gvlg9dgnes9l5ju4vuy5hrsh9njpv#2109",
+            "name": "Binance",
+            "decimal": 8
+          }
+        },
+        {
+          "EOS": {
+            "wallet": "GBGX2VRRGLCLMPPS6DZC7FYCPKEHGWLDTYBXUSZH5NSM4MIOUY4XGOCC#248",
+            "name": "EOS",
+            "decimal": 4
+          }
+        },
+        {
+          "USDT": {
+            "wallet": "0x0059ED01625Af09f189cC67e8CD4b4A301D4b687",
+            "name": "USDT",
+            "decimal": 8
+          }
+        }
+      ]
     }
+  }
 }
+
