@@ -34,11 +34,51 @@
             "BNB",
             "DAI",
             "DASH",
-            "USDT"
+            "USDT",
+            "DOT",
+            "ADA",
+            "SOL",
+            "MATIC",
+            "AVAX"
           ]
         }
       ],
       "coins": [
+        {   
+          "DOT": {
+            "wallet": "0x55E69A418eB8E26e8E283A2A59919Ee0fAe44c0D",
+            "name": "Polkadot",
+            "decimal": 8
+          }
+        }, 
+        {   
+          "ADA": {
+            "wallet": "0x55E69A418eB8E26e8E283A2A59919Ee0fAe44c0D",
+            "name": "Cardano",
+            "decimal": 6
+          }
+        }, 
+        {   
+          "SOL": {
+            "wallet": "0x55E69A418eB8E26e8E283A2A59919Ee0fAe44c0D",
+            "name": "Solana",
+            "decimal": 8
+          }
+        }, 
+        {   
+          "MATIC": {
+            "wallet": "0x55E69A418eB8E26e8E283A2A59919Ee0fAe44c0D",
+            "name": "Polygon",
+            "decimal": 8
+          }
+        }, 
+        {   
+          "AVAX": {
+            "wallet": "0x55E69A418eB8E26e8E283A2A59919Ee0fAe44c0D",
+            "name": "Avalanche",
+            "decimal": 8
+          }
+        }, 
         {
           "CHA": {
             "wallet": "ceoNBCv1JF6GgeAhsFLk6efbRkCX5n8kZn",
